@@ -148,7 +148,7 @@ You won’t actually be able to test any of the API endpoints without authorizin
 
 If you click on your deployment you should see a blue button in the top right that says `LangGraph Studio`. Clicking on this button will take you to a page that looks like this:
 
-![Screenshot 2024-06-11 at 2.51.51 PM.png](./img/graph_visualiztion)
+![Screenshot 2024-06-11 at 2.51.51 PM.png](./img/graph_visualization.png)
 
 On this page you can test out your graph by passing in starting states and clicking `Start Run` (this should behave identically to calling `.invoke`). You will then be able to look into the execution thread for each run and explore the steps your graph is taking to produce its output.
 
