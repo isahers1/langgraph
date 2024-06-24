@@ -107,7 +107,7 @@ If you are hosting multiple graphs, you should see all of them in this response.
         --url http://localhost:8123/runs/stream \
         --header 'Content-Type: application/json' \
         --data '{
-        "assistant_id": "agent",
+        "assistant_id": "123e4567-e89b-12d3-a456-426614174000",
         "input": {     
             "messages": [
             {               
@@ -127,9 +127,6 @@ If you are hosting multiple graphs, you should see all of them in this response.
     }'
 
 Make sure to edit the `input` and `assistant_id` fields to match what assistant you want to test. If you receive a 200 response then congratulations your graph has run succesfully and you are ready to move on to hosting on Langgraph Cloud!
-
-!!! note "Passing Assistant id"
-    Note that you can either pass the `graph_id` (the name of your graph, in this example it is "agent") or the `assistant_id` (the UUID that describes the assistant) in the `assistant_id` field. 
 
 ## Deploy to Cloud
 
